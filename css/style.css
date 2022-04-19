@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    background-color: #ff6900;
+    color: white;
+    padding: 20px 0;
+    margin: auto;
+}
+
+.navig {
+    display: flex;
+    justify-content: flex-start;
+    gap: 5px;
+}
+
+.sezione:hover {
+    text-decoration: underline;
+}
+
+.logo {
+    height: 20px;
+    width: auto;
+}
+
+.products {
+    display: flex;
+    justify-content: flex-start;
+    gap: 15px;
+    padding: 40px 0;
+}
+
+.photo {
+    height: 500px;
+    width: auto;
+}
