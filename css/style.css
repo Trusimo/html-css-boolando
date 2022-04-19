@@ -55,6 +55,19 @@ footer {
 .photo {
     height: 450px;
     width: auto;
+    position: relative;
+}
+
+.photo-hover {
+    display: none;
+}
+
+.cards:hover .photo-hover {
+    display: block;
+}
+
+.cards:hover .photo-default {
+    display: none;
 }
 
 .heart {
