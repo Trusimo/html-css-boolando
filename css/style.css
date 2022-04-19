@@ -63,7 +63,7 @@ footer {
 }
 
 .cards:hover .photo-hover {
-    display: block;
+    display: inline;
 }
 
 .cards:hover .photo-default {
